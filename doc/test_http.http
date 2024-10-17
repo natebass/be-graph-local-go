@@ -1,0 +1,21 @@
+# Get User Info
+GET https://api.github.com/users/natebass
+User-Agent: VSCode-HTTP-Client
+
+###
+
+# List Repositories for a User
+GET https://api.github.com/users/{username}/repos
+User-Agent: VSCode-HTTP-Client
+
+###
+
+# Get Repository Info
+GET https://api.github.com/repos/{username}/{repo}
+User-Agent: VSCode-HTTP-Client
+
+###
+
+# List Issues for a Repository
+GET https://api.github.com/repos/{username}/{repo}/issues
+User-Agent: VSCode-HTTP-Client
