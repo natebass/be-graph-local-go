@@ -36,7 +36,7 @@ cobra.test
 bin
 
 .idea/
-.vscode/
+# .vscode/
 *.iml
 
 be-graph-local-go
